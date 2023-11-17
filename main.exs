@@ -35,13 +35,12 @@ defmodule Clas_Elixir do
     IO.puts(inspect(new_map1))
   end
 
-  def user_age({:user, _, age}) do
-    
-    age
+  def get_age({:user, age, _}) do
+     age
   end
 
-  def user_f do
-
+  def get_names({:user, name1,_},{:user, name2,_},{:user, name3,_}) do
+    [name1, name2, name3]
   end
 
 end
