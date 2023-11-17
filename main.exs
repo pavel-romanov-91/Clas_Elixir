@@ -16,6 +16,9 @@ defmodule Clas_Elixir do
     tl(new_list)
   end
 
-  def 
+  def get_sum(l) do
+    [first, second | _] = l
+    first + second
+  end
 
 end
